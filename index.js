@@ -11,7 +11,7 @@ dbConnection();
 
 //CORS
 app.use(cors({
-  origin: '10-calendar-backend-lauras-projects-865c3007.vercel.app', // Reemplaza con tu dominio de Vercel
+  origin: 'https://10-calendar-backend-lauras-projects-865c3007.vercel.app/', // Reemplaza con tu dominio de Vercel
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true, // Habilitar si usas credenciales (por ejemplo, cookies)
 }));
