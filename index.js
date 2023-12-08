@@ -31,3 +31,7 @@ app.use("/api/events", require("./routes/events"));
 app.listen(process.env.PORT, () => {
   console.log(`Servidor corriendo en el puerto ${process.env.PORT}`);
 });
+
+
+// Export the Express API
+module.exports = app;
